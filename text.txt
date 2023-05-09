@@ -1,0 +1,41 @@
+<i class='bx bxl-gmail'></i>
+<i class='bx bxs-chat'></i>
+<i class='bx bx-left-arrow-alt'></i>
+<i class='bx bx-right-arrow-alt'></i>
+<i class='bx bx-up-arrow-alt'></i>
+<i class='bx bx-down-arrow-alt'></i>
+<i class='bx bx-search-alt-2'></i>
+<i class='bx bxs-rewind-circle'></i>
+<i class='bx bxs-fast-forward-circle' ></i>
+<i class='bx bx-menu'></i>
+<i class='bx bx-map'></i>
+<i class='bx bx-phone'></i>
+<i class='bx bx-credit-card'></i>
+<i class='bx bxl-facebook'></i>
+<i class='bx bxl-twitter'></i>
+<i class='bx bxl-whatsapp'></i>
+<i class='bx bxl-youtube'></i>
+<i class='bx bxl-linkedin'></i>
+<i class='bx bx-cart-alt'></i>
+<i class='bx bxs-brightness'></i>
+<i class='bx bx-chevron-down'></i>
+<i class='bx bx-chevron-up' ></i>
+<i class='bx bx-chevron-left' ></i>
+<i class='bx bx-chevron-right' ></i>
+<i class='bx bx-chevrons-down' ></i>
+<i class='bx bx-chevrons-up' ></i>
+<i class='bx bx-chevrons-right' ></i>
+<i class='bx bx-chevrons-left' ></i>
+<i class='bx bx-dollar'></i>
+<i class='bx bx-envelope' ></i>
+<i class='bx bx-navigation' ></i>
+<i class='bx bx-send' ></i>
+
+
+-----poppins--font-------------
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,500&display=swap');
+</style>
+
+------wa.me----------
+https://api.whatsapp.com/send?phone=2347063143426&text=hello%20my%20name%20is___I%20would%20love%20you%20guys%20to%20reserve%20a%20seat%20for%20me.%20thank%20you

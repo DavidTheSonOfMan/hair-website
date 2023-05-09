@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <!-- -----------------box icon-------------------- -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!-- -----------favicon----------------- -->
+     <link rel="shortcut icon" href="./assets/final/11222.png" type="/x-icon">
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+
+<!-- --------------------scroll up---------------------------- -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class='bx bx-chevron-up' ></i> </button>
+
+<script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+     
+
+
+
+  <nav class="nav">
+    <div class="nav-logo-container">
+        <a href="index.html" class="nav-logo"><img src="./assets/COURSE 2 LOGO.png" alt="logo"></a>
+    </div>
+    
+    <div class="nav-menu">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a href="#sect4" class="nav-link">About</a>
+            </li> -->
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a href="#sect5" class="nav-link">service</a>
+            </li> -->
+            
+        </ul>
+    </div>
+
+    <div class="nav-book">
+        <a href="book.html" class="book-link">BOOK NOW</a>
+    </div>
+</nav>
+
+
+        <div class="container">
+            <form  action="mailto:augustinedavid2211@gmail.com", action="mailto:augustinedavid3426@gmail.com" method="post" enctype="text/plain">
+                <h2>Booking Details</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+    
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+    
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+    
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time">
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter any additional information"></textarea>
+    
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+  
+    
+     
+
+      <!-- ------------------------footer------------------------- -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+          <img src="./assets/COURSE 2 LOGO.png" alt="">
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>About Us</h4>
+          <p>Lady sylvia hair offers forfessionalism, excellent <br>
+            customer service
+            and exceptional quality continue <br> to be the standard at Lady Sylvia Hair. <br> </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Contact Us</h4>
+          <p>Shop 5, udua awa Street<br>Okon, Eket, Akwa-ibom State<br>Phone: +234-8149-600-016<br>Email: ladysylviahair2211@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Follow Us</h4>
+          <ul class="social-icons">
+            <li><a href="https://www.facebook.com/LADY-Sylvia-HAIR-115595914861473/?__cft__[0]=AZW3qU7oX3P_V0J_ReYd-jvFSGQUY1Ui0cPCKfMqGm9c_GHSyNBuJxKGsfLq7XEYxanJBK8sBbYRDYfHl0W58g-DaGqAoCkytWkEk55i56HvczIkfea07QkFMO7TFoJeuUc&__tn__=-UC%2CP-R" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=2347063143426&text=%22Hello%2C%20I%20want%20more%20info%20about%20your%20services%22" target="_blank"><i class="bx bxl-whatsapp"></i></a></li>
+            <li><a href="https://www.instagram.com/ladysylviahair/" target="_blank"><i class="bx bxl-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer> 
+</body>
+</html>
